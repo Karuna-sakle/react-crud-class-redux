@@ -1,0 +1,20 @@
+.user-list-wrapper{
+    background-color: rgb(227, 233, 238);
+    display: flex;
+    .add-user-btn{
+        width:100%;
+
+        button{
+            background-color: rgb(20, 29, 37);
+            border-radius: 0;
+            width: 200px;
+            box-shadow: 0 0 0 3px;
+            font-family: sans-serif;
+            color: white;
+            &:hover{
+                background-color: azure;
+                color: black;
+            }
+        }
+    }
+}
